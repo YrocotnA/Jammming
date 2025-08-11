@@ -55,8 +55,30 @@ function App() {
 
   return (
     <div className="App">
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="navbar-brand">
+            <span className="navbar-logo">🎵</span>
+            <span className="navbar-title">Welcome, Friends!</span>
+          </div>
+          <div className="navbar-menu">
+            <a href="#search" className="navbar-link">Search</a>
+            <a href="#playlist" className="navbar-link">Playlist</a>
+            <a href="#about" className="navbar-link">About</a>
+          </div>
+        </div>
+      </nav>
+      
       <div className="App-header">
-        <h1>Jammming</h1>
+        <h1 className="music-title">
+          <span className="title-letter">J</span>
+          <span className="music-symbol">♬</span>
+          <span className="title-letter">m</span>
+          <span className="title-letter">m</span>
+          <span className="music-symbol">♬</span>
+          <span className="title-letter">n</span>
+          <span className="title-letter">g</span>
+        </h1>
         <p>Create and save custom playlists to your Spotify account</p>
       </div>
       
