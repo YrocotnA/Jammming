@@ -1,0 +1,58 @@
+.Track {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.Track:hover {
+  border-color: #1db954;
+  box-shadow: 0 2px 8px rgba(29, 185, 84, 0.1);
+}
+
+.Track-information {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.Track-information h3 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.Track-information p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.Track-action {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #1db954;
+  background: white;
+  color: #1db954;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.Track-action:hover {
+  background: #1db954;
+  color: white;
+  transform: scale(1.1);
+}
+
+.Track-action:active {
+  transform: scale(0.95);
+}

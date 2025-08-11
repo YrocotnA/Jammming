@@ -1,0 +1,25 @@
+.SearchResults {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.SearchResults h2 {
+  margin: 0 0 20px 0;
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.SearchResults-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.SearchResults-empty p {
+  margin: 0;
+  font-size: 16px;
+}

@@ -1,0 +1,25 @@
+.TrackList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.TrackList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.TrackList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.TrackList::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.TrackList::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
