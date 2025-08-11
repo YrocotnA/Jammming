@@ -57,9 +57,8 @@ function App() {
     <div className="App">
       <nav className="navbar">
         <div className="navbar-container">
-          <div className="navbar-brand">
-            <span className="navbar-logo">🎵</span>
-            <span className="navbar-title">Welcome, Friends!</span>
+          <div className="navbar-brand">        
+            <span className="navbar-title">Welcome, Music Lovers!</span>
           </div>
           <div className="navbar-menu">
             <a href="#search" className="navbar-link">Search</a>

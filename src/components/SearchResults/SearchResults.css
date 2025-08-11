@@ -1,25 +1,29 @@
 .SearchResults {
-  background: white;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   height: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .SearchResults h2 {
   margin: 0 0 20px 0;
-  color: #1a1a1a;
+  color: white;
   font-size: 24px;
   font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .SearchResults-empty {
   text-align: center;
   padding: 40px 20px;
-  color: #666;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .SearchResults-empty p {
   margin: 0;
   font-size: 16px;
+  font-weight: 500;
 }

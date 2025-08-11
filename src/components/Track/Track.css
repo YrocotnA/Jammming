@@ -2,15 +2,17 @@
   display: flex;
   align-items: center;
   padding: 15px;
-  border: 1px solid #e1e5e9;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
-  background: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   transition: all 0.2s ease;
 }
 
 .Track:hover {
   border-color: #1db954;
-  box-shadow: 0 2px 8px rgba(29, 185, 84, 0.1);
+  box-shadow: 0 4px 20px rgba(29, 185, 84, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .Track-information {
@@ -22,20 +24,22 @@
   margin: 0 0 5px 0;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .Track-information p {
   margin: 0;
   font-size: 14px;
-  color: #666;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
 }
 
 .Track-action {
   width: 40px;
   height: 40px;
   border: 2px solid #1db954;
-  background: white;
+  background: rgba(29, 185, 84, 0.2);
   color: #1db954;
   border-radius: 50%;
   font-size: 20px;
@@ -45,12 +49,14 @@
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
 }
 
 .Track-action:hover {
   background: #1db954;
   color: white;
   transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(29, 185, 84, 0.4);
 }
 
 .Track-action:active {
